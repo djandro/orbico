@@ -22,8 +22,237 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container">
+            <header class="sub-page">
+                <div class="row">
+                    <div class="col-md-3 logo">
+                        <a href="#"><img src="img/logo.png" alt="orbico logo"/></a>
+                    </div><!-- end logo -->
+
+                    <form class="col-md-4 col-md-offset-5 search" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                              <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">S</button> <!-- TODO icon.search -->
+                              </span>
+                        </div>
+                    </form><!-- end search-form -->
+                </div>
+
+                <nav class="navbar row" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="col-md-8 collapse navbar-collapse menu" id="menu-1">
+                        <ul class="nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Procet & Gamble</a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Menu item 1</a></li>
+                                    <li><a href="#">Menu item 2</a></li>
+                                    <li><a href="#">Menu item 3</a></li>
+                                    <li><a href="#">Menu item 4</a></li>
+                                    <li><a href="#">Menu item 5</a></li>
+                                    <li><a href="#">Menu item 6</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Kozmetika</a></li>
+                            <li><a href="#">Tehnika</a></li>
+                            <li><a href="#">Market</a></li>
+                            <li><a href="#">Igrače</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 header-right-menu">
+                        <ul>
+                            <li><a href="#">Pomoč</a></li>
+                            <li><a href="#">Moj račun</a></li>
+                            <li><a href="#">Košarica <span class="cart-count">(0)</span></a></li> <!-- TODO košarica -->
+                        </ul>
+                    </div>
+                </nav><!-- end navigation menu -->
+            </header><!-- end header -->
+
+            <section class="content">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="sidebar sidebar-left">
+                            <h3>FILTER PRODUCT</h3>
+
+                            <h4>BY PRICE</h4>
+                            <div class="filter-box" id="filter-price">
+                                <div class="checkbox"><label><input type="checkbox" value="">Price 1</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Price 2</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Price 3</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Price 4</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Price 5</label></div>
+                            </div>
+
+                            <h4>BY BRAND</h4>
+                            <div class="filter-box" id="filter-brand">
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 1</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 2</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 3</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 4</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 5</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Brand 6</label></div>
+                            </div>
+
+                            <h4>OTHER FILTER</h4>
+                            <div class="filter-box" id="filter-other-filter">
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 1</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 2</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 3</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 4</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 5</label></div>
+                                <div class="checkbox"><label><input type="checkbox" value="">Option 6</label></div>
+                            </div>
+
+                        </div><!-- end sidebar-left -->
+                    </div>
+                    <div class="col-md-9 category-view">
+                        <div class="row category-top">
+                            <div class="col-md-10">
+                                <h1 class="title">Category name</h1>
+                            </div>
+                            <div class="col-md-2">
+                                <select class="form-control" id="category-sort">
+                                    <option>Most poular first</option>
+                                    <option>Price (low > hight)</option>
+                                    <option>Price (hight > low)</option>
+                                    <option>Name (A - Z)</option>
+                                    <option>Name (Z - A)</option>
+                                </select>
+                            </div>
+                        </div><!-- end category-top -->
+
+                        <div class="row product-list">
+                            <div class="col-md-4 product-box">
+                                <a href="#"><img src="" alt=""/></a>
+                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
+                                <div class="product-price-box">
+                                    100,00 € <span class="old-price">123,00€</span>
+                                </div>
+                                <div class="product-quantity-box input-group">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">-</button>
+                                    </span>
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">+</button>
+                                    </span>
+                                </div><!-- product-quantity-box -->
+                                <a class="btn btn-cart" href="">KUPIM</a>
+                            </div>
+                            <div class="col-md-4 product-box">
+                                <a href="#"><img src="" alt=""/></a>
+                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
+                                <div class="product-price-box">
+                                    100,00 € <span class="old-price">123,00€</span>
+                                </div>
+                                <div class="product-quantity-box input-group">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">-</button>
+                                    </span>
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">+</button>
+                                    </span>
+                                </div><!-- product-quantity-box -->
+                                <a class="btn btn-cart" href="">KUPIM</a>
+                            </div>
+                            <div class="col-md-4 product-box">
+                                <a href="#"><img src="" alt=""/></a>
+                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
+                                <div class="product-price-box">
+                                    100,00 € <span class="old-price">123,00€</span>
+                                </div>
+                                <div class="product-quantity-box input-group">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">-</button>
+                                    </span>
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn">
+                                       <button class="btn btn-default" type="button">+</button>
+                                    </span>
+                                </div><!-- product-quantity-box -->
+                                <a class="btn btn-cart" href="">KUPIM</a>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                        </div><!-- end category-grid -->
+
+                        <div class="loading"><i class="icon-loadin">Loading product</i></div>
+
+                    </div>
+                </div>
+            </section><!-- end content -->
+
+            <footer>
+                <div class="row footer-menu">
+                    <div class="col-md-3">
+                         <h4>Customer services</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Footer menu 1</a></li>
+                            <li><a href="#">Footer menu 2</a></li>
+                            <li><a href="#">Footer menu 3</a></li>
+                            <li><a href="#">Footer menu 4</a></li>
+                            <li><a href="#">Footer menu 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Shopping with Orbico shop</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Footer menu 1</a></li>
+                            <li><a href="#">Footer menu 2</a></li>
+                            <li><a href="#">Footer menu 3</a></li>
+                            <li><a href="#">Footer menu 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>We are here to help</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Footer menu 1</a></li>
+                            <li><a href="#">Footer menu 2</a></li>
+                            <li><a href="#">Footer menu 3</a></li>
+                            <li><a href="#">Footer menu 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Subscribe to our newsletter</h4>
+                        <div class="newsletter-box input-group">
+                              <input type="text" class="form-control" placeholder="Email address">
+                              <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">SUBSCRIBE</button>
+                              </span>
+                        </div><!-- /input-group -->
+                    </div>
+                </div><!-- end footer-menu -->
+
+                <div class="row footer-bottom">
+                    <div class="col-md-8">
+                        <p>Copyright © 2014. Orbico group. All right reserved. <a href="#">Privacy policy</a> | <a href="#">Terms & conditions</a></p>
+                    </div>
+                    <div class="col-md4">
+                        <ul class="social-icon list-inline">
+                            <li><a href="#"><i class="icon">fb</i></a></li>
+                            <li><a href="#"><i class="icon">tw</i></a></li>
+                            <li><a href="#"><i class="icon">pin</i></a></li>
+                            <li><a href="#"><i class="icon">g+</i></a></li>
+                        </ul>
+                    </div>
+                </div><!-- end footer-bottom -->
+            </footer><!-- end footer -->
+
+        </div><!-- end container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

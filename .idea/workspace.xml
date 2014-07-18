@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa41a2d-2405-4cfb-89d7-53c2e7491a26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/code.less" afterPath="$PROJECT_DIR$/less/code.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="orbico.iws" />
@@ -37,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="697">
+            <state line="28" column="46" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.42236024" vertical-offset="204" max-vertical-offset="4590">
               <folding />
             </state>
           </provider>
@@ -137,21 +133,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orbico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orbico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,7 +211,15 @@
       <created>1405685994564</created>
       <updated>1405685994564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dodan logo + include bootstrap">
+      <created>1405686663113</created>
+      <updated>1405686663113</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dodan bootstrap">
+      <created>1405686685386</created>
+      <updated>1405686685386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -292,7 +282,9 @@
     </option>
     <MESSAGE value="init2" />
     <MESSAGE value="dodan boostrap + ionicons &#10;odstranjene nepotrebne boolerplate datoteke" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodan boostrap + ionicons &#10;odstranjene nepotrebne boolerplate datoteke" />
+    <MESSAGE value="dodan logo + include bootstrap" />
+    <MESSAGE value="dodan bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodan bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -406,9 +398,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="697">
+        <state line="28" column="46" selection-start="1330" selection-end="1330" vertical-scroll-proportion="0.42236024" vertical-offset="204" max-vertical-offset="4590">
           <folding />
         </state>
       </provider>
