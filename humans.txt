@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Andraž Hostnik - djandro.net
 
 # THANKS
 
-    <name>
+    Av-studio d.o.o.
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Bootstrap v3, Ionicons
+    jQuery, Modernizr

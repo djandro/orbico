@@ -2,6 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa41a2d-2405-4cfb-89d7-53c2e7491a26" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ionicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/wells.less" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\crossdomain.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\css.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\extend.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\faq.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\html.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\js.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\misc.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\XAMPP\htdocs\orbico\doc\usage.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/humans.txt" afterPath="$PROJECT_DIR$/humans.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="orbico.iws" />
@@ -25,10 +90,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="80" selection-start="573" selection-end="573" vertical-scroll-proportion="0.22904192" vertical-offset="0" max-vertical-offset="9469">
+            <state line="7" column="12" selection-start="115" selection-end="115" vertical-scroll-proportion="-2.38" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/code.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="140" selection-end="140" vertical-scroll-proportion="0.24285714" vertical-offset="0" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="80" selection-start="632" selection-end="632" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -48,6 +134,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/humans.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -103,12 +192,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orbico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orbico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orbico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orbico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\XAMPP\htdocs\orbico\fonts" />
+      <recent name="F:\XAMPP\htdocs\orbico\css" />
+      <recent name="F:\XAMPP\htdocs\orbico" />
+      <recent name="F:\XAMPP\htdocs\orbico\js\vendor" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -154,7 +279,15 @@
       <created>1405684480023</created>
       <updated>1405684480023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init2">
+      <created>1405684493996</created>
+      <updated>1405684493996</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dodan boostrap + ionicons &#10;odstranjene nepotrebne boolerplate datoteke">
+      <created>1405685959245</created>
+      <updated>1405685959245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -162,13 +295,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922202" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922202" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -196,7 +329,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="init2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init2" />
+    <MESSAGE value="dodan boostrap + ionicons &#10;odstranjene nepotrebne boolerplate datoteke" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodan boostrap + ionicons &#10;odstranjene nepotrebne boolerplate datoteke" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -204,7 +338,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="80" selection-start="573" selection-end="573" vertical-scroll-proportion="0.22904192" vertical-offset="0" max-vertical-offset="9469">
+        <state line="22" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-1.1961077" vertical-offset="1173" max-vertical-offset="9469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/humans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="204" selection-end="204" vertical-scroll-proportion="0.34948605" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="80" selection-start="632" selection-end="632" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendor/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="115" selection-end="115" vertical-scroll-proportion="-2.38" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/ionicons.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="30" selection-start="671" selection-end="671" vertical-scroll-proportion="0.55988026" vertical-offset="0" max-vertical-offset="32385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ionicons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="42998" selection-end="42998" vertical-scroll-proportion="0.15269461" vertical-offset="0" max-vertical-offset="668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="528" selection-end="528" vertical-scroll-proportion="-6.2892804" vertical-offset="4589" max-vertical-offset="5270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="-2.5904763" vertical-offset="1785" max-vertical-offset="4301">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/code.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="140" selection-end="140" vertical-scroll-proportion="0.24285714" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
