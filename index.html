@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- TODO favicon.ico and apple-touch-icon.png -->
 
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" href="css/ionicons.min.css"/>
@@ -91,47 +91,57 @@
         <div class="container">
             <section class="content">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="sidebar sidebar-left">
+
                             <h3>FILTER PRODUCT</h3>
 
-                            <h4>BY PRICE</h4>
-                            <div class="filter-box" id="filter-price">
-                                <div class="checkbox"><label><input type="checkbox" value="">Price 1</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Price 2</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Price 3</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Price 4</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Price 5</label></div>
-                            </div>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#filters">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="clearfix"></div>
 
-                            <h4>BY BRAND</h4>
-                            <div class="filter-box" id="filter-brand">
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 1</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 2</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 3</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 4</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 5</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Brand 6</label></div>
-                            </div>
+                            <div class="collapse" id="filters">
+                                <h4>BY PRICE</h4>
+                                <div class="filter-box" id="filter-price">
+                                    <div class="checkbox"><label><input type="checkbox" value="">Price 1</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Price 2</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Price 3</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Price 4</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Price 5</label></div>
+                                </div>
 
-                            <h4>OTHER FILTER</h4>
-                            <div class="filter-box" id="filter-other-filter">
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 1</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 2</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 3</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 4</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 5</label></div>
-                                <div class="checkbox"><label><input type="checkbox" value="">Option 6</label></div>
-                            </div>
+                                <h4>BY BRAND</h4>
+                                <div class="filter-box" id="filter-brand">
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 1</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 2</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 3</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 4</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 5</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Brand 6</label></div>
+                                </div>
+
+                                <h4>OTHER FILTER</h4>
+                                <div class="filter-box" id="filter-other-filter">
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 1</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 2</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 3</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 4</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 5</label></div>
+                                    <div class="checkbox"><label><input type="checkbox" value="">Option 6</label></div>
+                                </div>
+                            </div><!-- end collapse -->
 
                         </div><!-- end sidebar-left -->
                     </div>
-                    <div class="col-md-9 category-view">
+                    <div class="col-sm-9 category-view">
                         <div class="row category-top">
-                            <div class="col-md-9">
+                            <div class="col-sm-9">
                                 <h1 class="title">Category name</h1>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-sm-3">
                                 <select class="form-control" id="category-sort">
                                     <option>Most poular first</option>
                                     <option>Price (low > hight)</option>
@@ -143,75 +153,21 @@
                         </div><!-- end category-top -->
 
                         <div class="row product-list">
-                            <div class="col-md-4 product-box">
-                                <a href="#"><img src="" alt=""/></a>
-                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
-                                <div class="product-price-box">
-                                    100,00 € <span class="old-price">123,00€</span>
-                                </div>
-                                <div class="product-quantity-box input-group">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">-</button>
-                                    </span>
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">+</button>
-                                    </span>
-                                </div><!-- product-quantity-box -->
-                                <a class="btn btn-cart" href="">KUPIM</a>
-                            </div>
-                            <div class="col-md-4 product-box">
-                                <a href="#"><img src="" alt=""/></a>
-                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
-                                <div class="product-price-box">
-                                    100,00 € <span class="old-price">123,00€</span>
-                                </div>
-                                <div class="product-quantity-box input-group">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">-</button>
-                                    </span>
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">+</button>
-                                    </span>
-                                </div><!-- product-quantity-box -->
-                                <a class="btn btn-cart" href="">KUPIM</a>
-                            </div>
-                            <div class="col-md-4 product-box">
-                                <a href="#"><img src="" alt=""/></a>
-                                <div class="product-title"><span>Ariel detergent v prahu, 1.4 kg</span></div>
-                                <div class="product-price-box">
-                                    100,00 € <span class="old-price">123,00€</span>
-                                </div>
-                                <div class="product-quantity-box input-group">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">-</button>
-                                    </span>
-                                    <input type="text" class="form-control">
-                                    <span class="input-group-btn">
-                                       <button class="btn btn-default" type="button">+</button>
-                                    </span>
-                                </div><!-- product-quantity-box -->
-                                <a class="btn btn-cart" href="">KUPIM</a>
-                            </div>
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4"></div>
+                            <!-- JSON PRODUCTS -->
                         </div><!-- end category-grid -->
 
-                        <div class="loading"><i class="icon-loadin">Loading product</i></div>
+                        <div class="loading"><i class="icon ion-loading-c"></i> LOADING PRODUCTS</div>
 
                     </div>
                 </div>
             </section><!-- end content -->
+        </div><!-- end container -->
 
-            <footer>
+        <footer>
+            <div class="container">
                 <div class="row footer-menu">
                     <div class="col-md-3">
-                         <h4>Customer services</h4>
+                        <h4>Customer services</h4>
                         <ul class="list-unstyled">
                             <li><a href="#">Footer menu 1</a></li>
                             <li><a href="#">Footer menu 2</a></li>
@@ -241,30 +197,28 @@
                     <div class="col-md-3">
                         <h4>Subscribe to our newsletter</h4>
                         <div class="newsletter-box input-group">
-                              <input type="text" class="form-control" placeholder="Email address">
-                              <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">SUBSCRIBE</button>
-                              </span>
+                            <input type="text" class="form-control" placeholder="Email address">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">SUBSCRIBE</button>
+                                  </span>
                         </div><!-- /input-group -->
                     </div>
                 </div><!-- end footer-menu -->
-
                 <div class="row footer-bottom">
                     <div class="col-md-8">
                         <p>Copyright © 2014. Orbico group. All right reserved. <a href="#">Privacy policy</a> | <a href="#">Terms & conditions</a></p>
                     </div>
-                    <div class="col-md4">
+                    <div class="col-md-4 text-right">
                         <ul class="social-icon list-inline">
-                            <li><a href="#"><i class="icon">fb</i></a></li>
-                            <li><a href="#"><i class="icon">tw</i></a></li>
-                            <li><a href="#"><i class="icon">pin</i></a></li>
-                            <li><a href="#"><i class="icon">g+</i></a></li>
+                            <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
                         </ul>
                     </div>
                 </div><!-- end footer-bottom -->
-            </footer><!-- end footer -->
-
-        </div><!-- end container -->
+            </div><!-- end container -->
+        </footer><!-- end footer -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
