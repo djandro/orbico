@@ -23,10 +23,10 @@ $.ajax({
 
             var itemHtml2 =
                 "<div class='row'><div class='product-quantity-box input-group col-sm-6'>" +
-                "<span class='input-group-btn'><button class='btn btn-default' type='button'>-</button></span>" +
-                "<input type='text' class='form-control'>" +
+                "<span class='input-group-btn'><button class='btn btn-default' type='button'><i class='icon ion-minus'></i></button></span>" +
+                "<input type='text' class='form-control' value='1' maxlength='3'>" +
                 "<span class='input-group-btn'>" +
-                "<button class='btn btn-default' type='button'>+</button>"+
+                "<button class='btn btn-default' type='button'><i class='icon ion-plus'></i></button>"+
                 "</span></div>" +
                 "<div class='col-sm-6'><a class='btn btn-cart btn-block' href='#'>KUPIM</a></div>"
                 "</div>";

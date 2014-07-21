@@ -203,6 +203,9 @@ header{
       padding: 10px 15px;
     }
   }
+  @media (max-width: @screen-lg-min) {
+    margin-top: 15px;
+  }
 }
 
 /* search */
@@ -318,11 +321,19 @@ header{
 .product-box{
   min-height: 380px;
 
+  img{ max-width: 100%; }
+
   .product-title{
     font-size:18px;
+    min-height: 72px;
     border-top: 2px solid @gray-lighter;
     padding: 10px 0;
+
+    @media (max-width: @grid-float-breakpoint-max) {
+        min-height: 122px;
+    }
   }
+
   .product-price-box{
     font-size:18px;
     font-weight: bold;
@@ -336,6 +347,32 @@ header{
       padding-left: 10px;
     }
   }
+  .product-price-box + .row{
+    margin:0;
+  }
+  .product-quantity-box{
+    float:left;
+
+    input{
+      text-align: right;
+      max-width: 100%;
+      padding:6px;
+      .box-shadow(none);
+
+      &:focus{
+        border-color: @input-border;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      float:none;
+      margin-bottom: 10px;
+
+      + .col-sm-6{
+        padding: 0;
+      }
+    }
+  }
 
 }
 
@@ -346,6 +383,10 @@ header{
   &:hover,&:focus{
     background-color: @callToActionColor;
     .transition(all 1s ease);
+  }
+
+  @media (max-width: @grid-float-breakpoint-max) {
+    padding: 10px 20px;
   }
 }
 
@@ -373,6 +414,10 @@ footer{
     text-transform: uppercase;
   }
 
+  .col-xs-6{
+    min-height: 160px;
+  }
+
   .footer-bottom{
     font-size:12px;
     margin-top: 25px;
@@ -390,6 +435,10 @@ footer{
     }
     li{
       margin:0 10px;
+    }
+    @media (max-width: @grid-float-breakpoint-max){
+      text-align: center;
+      margin-top: 20px;
     }
   }
 }
