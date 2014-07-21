@@ -403,6 +403,9 @@ footer .social-icon li {
   margin: 0 10px;
 }
 @media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
   footer .social-icon {
     text-align: center;
     margin-top: 20px;
